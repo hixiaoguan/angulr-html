@@ -1,4 +1,4 @@
-bower_components
-node_modules
-html
-.idea
+/html
+/node_modules
+/bower_components
+/.idea
