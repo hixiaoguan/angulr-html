@@ -14,7 +14,7 @@ module.exports = function(grunt) {
         'recess:html', 
         'concat:html', 
         'uglify:html',
-        'htmlmin:min',
+        'htmlmin',
         'usemin:html',
         'useminPrepare:html'
     ]);
