@@ -45,7 +45,7 @@ module.exports = {
                     'jquery.sparkline/jquery-jvectormap-us-aea-en.js',
                     'jquery.sparkline/jquery.nestable.css',
                 ],
-                dest: 'libs/jquery',
+                dest: 'src/libs/jquery',
                 cwd:  'bower_components',
                 expand: true
             },
@@ -58,7 +58,7 @@ module.exports = {
                     'simple-line-icons/fonts/**',
                     'bootstrap-rtl/dist/css/bootstrap-rtl.min.css'
                 ],
-                dest: 'libs/assets',
+                dest: 'src/libs/assets',
                 cwd:  'bower_components',
                 expand: true
             },
@@ -71,6 +71,8 @@ module.exports = {
             {expand: true, src: "**", cwd: 'src/api',     dest: "html/api"},
             {expand: true, src: '**', cwd:'src/img/', dest: 'html/img/'},
             {expand: true, src: '*.css', cwd:'src/css/', dest: 'html/css/'},
+            {expand: true, src: '*.js', cwd:'src/js/', dest: 'html/js/'},
+            {expand: true, src: '**', cwd:'src/libs/', dest: 'html/libs/'},
         ]
     }
 };

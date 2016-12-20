@@ -10,11 +10,13 @@ module.exports = function(grunt) {
  
     gtx.alias('build:html', [
         'clean:html', 
-        'copy:html', 
+        'copy', 
         'recess:html', 
-        'swig:html', 
         'concat:html', 
-        'uglify:html'
+        'uglify:html',
+        'htmlmin:min',
+        'usemin:html',
+        'useminPrepare:html'
     ]);
 
     gtx.finalise();
